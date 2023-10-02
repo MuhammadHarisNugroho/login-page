@@ -11,19 +11,34 @@
 <body>
     <div class="box">
         <span class="borderLine"></span>
-        <form action="login.php" method="post">
+        <form action="signup-check.php" method="post">
             <h2>Sign Up</h2>
             <?php if (isset($_GET['error'])) { ?>
                 <p class="error">
                     <?php echo $_GET['error']; ?>
                 </p>
             <?php } ?>
+
+            <?php if (isset($_GET['success'])) { ?>
+                <p class="success">
+                    <?php echo $_GET['success']; ?>
+                </p>
+            <?php } ?>
             <div class="inputBox">
-                <input type="text" name="name" placeholder="Name">
+                <?php if (isset($_GET['name'])) { ?>
+                    <input type="text" name="name" placeholder="Name" value="<?php echo $_GET['name']; ?>"><br>
+                <?php } else { ?>
+                    <input type="text" name="name" placeholder="Name"><br>
+                    <?php } ?>
                 <i></i>
             </div>
             <div class="inputBox">
-                <input type="text" name="uname" placeholder="User Name">
+            <?php if (isset($_GET['uname'])) { ?>
+                <input type="text" name="uname" placeholder="User Name" value="<?php echo $_GET['uname']; ?>"><br>
+          <?php }else{ ?><input type="text" 
+                      name="uname" 
+                      placeholder="User Name"><br>
+          <?php }?>
                 <i></i>
             </div>
             <div class="inputBox">
