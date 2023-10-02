@@ -34,7 +34,7 @@
                 <span class="sub">Already have an account?</span>
                 <a href="index.php">Sign In</a>
             </div>
-            <input type="submit" value="Login">
+            <input type="submit" value="Sign Up">
         </form>
     </div>
 </body>
