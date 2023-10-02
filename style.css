@@ -187,6 +187,15 @@ body {
     text-decoration: none;
 }
 
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 5px auto;
+ }
+
 .box form .links a:hover,
 .box form .links a:nth-child(2) {
     color: #fff;
@@ -215,15 +224,6 @@ body {
     padding: 10px;
     width: 95%;
     height: 20%;
-    border-radius: 5px;
-    margin: 5px auto;
- }
-
- .success {
-    background: #D4EDDA;
-    color: #40754C;
-    padding: 10px;
-    width: 95%;
     border-radius: 5px;
     margin: 5px auto;
  }
