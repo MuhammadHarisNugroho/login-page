@@ -180,6 +180,9 @@ body {
     color: #8f8f8f;
     text-decoration: none;
 }
+.box form .links a:hover {
+    text-decoration: underline;
+}
 
 .sub {
     margin: 10px 0;
@@ -235,16 +238,3 @@ body {
      color: #fff;
  }
  
- .logout-button a {
-     float: right;
-     background: #555;
-     padding: 10px 15px;
-     color: #fff;
-     border-radius: 5px;
-     margin-right: 10px;
-     border: none;
-     text-decoration: none;
- }
- .logout-button a:hover{
-     opacity: .8;
- }
