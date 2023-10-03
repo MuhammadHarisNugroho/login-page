@@ -101,7 +101,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                 <a class="dropdown-item" href="#">Settings</a>
               </li>
               <li>
-                <a class="dropdown-item" href="index.php">Logout</a>
+                <a class="dropdown-item" href="logout.php">Logout</a>
               </li>
             </ul>
           </div>
